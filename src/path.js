@@ -1,7 +1,7 @@
 // 拼接文件路径
 // 文件路径本质上（字符串）
 import path from "node:path"
-import { fileURLToPath, pathToFileURL } from "node:url"
+import { fileURLToPath } from "node:url"
 
 // 当前文件的路径
 const __filename = fileURLToPath(import.meta.url)
